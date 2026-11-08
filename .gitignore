@@ -1,0 +1,6 @@
+node_modules/
+.env
+# Company documents, search index and audit logs must never go to git
+docs/
+.index/
+logs/

@@ -1,0 +1,10 @@
+{
+  "company_name": "Siam Northwind Co., Ltd. (sample company)",
+  "assistant_name": "Knowledge Assistant",
+  "help_contact": "the relevant department, or HR at hr@northwind.example / IT at it@northwind.example",
+  "users": {
+    "admin":    { "name": "Administrator", "access": ["*"] },
+    "staff":    { "name": "Staff member",  "access": ["public", "finance"] },
+    "hr":       { "name": "HR team",       "access": ["public", "finance", "hr"] }
+  }
+}
